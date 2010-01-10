@@ -1,7 +1,7 @@
 %define realname django-notification
 
 Name:           python-django-notification
-Version:        0.1.3
+Version:        0.1.5
 Release:        %mkrel 1
 Summary:        User notification management for the Django web framework
 
