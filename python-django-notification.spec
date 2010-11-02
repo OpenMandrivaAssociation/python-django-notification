@@ -2,7 +2,7 @@
 
 Name:           python-django-notification
 Version:        0.1.5
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        User notification management for the Django web framework
 
 Group:          Development/Python
