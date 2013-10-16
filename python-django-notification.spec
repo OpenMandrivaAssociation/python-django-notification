@@ -1,15 +1,14 @@
 %define realname django-notification
 
 Name:           python-django-notification
-Version:        0.1.5
-Release:        %mkrel 2
+Version:        0.2
+Release:        1
 Summary:        User notification management for the Django web framework
 
 Group:          Development/Python
 License:        MIT
 URL:            http://code.google.com/p/django-notification/
-Source0:        http://pypi.python.org/packages/source/d/django-notification/%{realname}-%{version}.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Source0:        http://pypi.python.org/packages/source/d/django-notification/django-notification-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python-devel python-setuptools
@@ -35,11 +34,9 @@ find -name '._*' -exec rm {} \;
 %{__python} setup.py build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install -O1 --skip-build --root $RPM_BUILD_ROOT
+%{__python} setup.py install -O1 --skip-build --root %{buildroot}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
@@ -63,5 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 * Fri Mar 06 2009 Jérôme Soyer <saispo@mandriva.org> 0.1.2-1mdv2009.1
 + Revision: 349662
 - import python-django-notification
+
 
 
