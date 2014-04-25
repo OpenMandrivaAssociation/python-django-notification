@@ -41,7 +41,7 @@ python setup.py install -O1 --skip-build --root %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc AUTHORS LICENSE README docs/
+%doc AUTHORS LICENSE  docs/
 %{py_puresitedir}/*
 
 
