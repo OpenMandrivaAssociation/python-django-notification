@@ -2,7 +2,7 @@
 
 Name:           python-django-notification
 Version:        1.1.1
-Release:        1
+Release:        2
 Summary:        User notification management for the Django web framework
 
 
