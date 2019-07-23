@@ -1,15 +1,15 @@
 %define realname django-notification
 
 Name:           python-django-notification
-Version:        1.1.1
-Release:        2
+Version:	1.3.3
+Release:	1
 Summary:        User notification management for the Django web framework
 
 
 Group:          Development/Python
 License:        MIT
 URL:            http://code.google.com/p/django-notification/
-Source0:        http://pypi.python.org/packages/source/d/django-notification/django-notification-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/4c/9c/ea9717095f8a349a37ec620b1812879ebedbef4476f6cbdef72030038306/django-notification-1.3.3.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python-devel python-setuptools

@@ -1,5 +1,2 @@
-removed_sources:
-  django-notification-0.1.5.tar.gz: dc3e470f6e872bc7b99a408b5c2d64c44bd1df33
-  django-notification-0.2.tar.gz: 5f3e9dbcc3fdb0e739ebfd704c90dde9a46e30ac
 sources:
-  django-notification-1.1.1.tar.gz: 61c873ae9e864a635860b28f296364865bfa83c7
+  django-notification-1.3.3.tar.gz: 8bb87783615488c872675821d9b9e675f837a204
